@@ -1,0 +1,3 @@
+include 'org.xtext.example.issue60'
+include 'org.xtext.example.issue60.ide'
+include 'org.xtext.example.issue60.tests'

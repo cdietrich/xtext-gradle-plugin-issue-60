@@ -1,0 +1,9 @@
+grammar org.xtext.example.issue60.Issue60 with org.eclipse.xtext.common.Terminals
+
+generate issue60 "http://www.xtext.org/example/issue60/Issue60"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
